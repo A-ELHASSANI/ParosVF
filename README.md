@@ -1,14 +1,13 @@
 # Idéal Biens SA
 
 ## Introduction
-Idéal Biens SA est une application de gestion de visites pour une agence immobilière. Elle a été créée grâce à JHipster en guise d'application de démonstration pour mon Travail de Bachelor.
+Paros est une application de gestion de visites pour une agence immobilière.
 
 ## Prérequis
 Il faut avoir installer les éléments suivants:
 - Java 8
 - Node.Js
 - Yarn
-- Yeoman
 - Docker
 
 ## Configuration de l'application
@@ -19,22 +18,7 @@ Il faut avoir installer les éléments suivants:
 - Angular 5
 - JWT authentification
 - Maven
-- Developper sur IntelliJ
-- Kitematic
-
-
-
-## Modèle de données
-MCD
-
-![](https://github.com/x-xira25-x/JhipsterMonoMySql/blob/master/ModeleDonnees/MCD2.PNG)
-
-MLD
-![](https://github.com/x-xira25-x/JhipsterMonoMySql/blob/master/ModeleDonnees/MLD2.PNG)
-
-## Structure du projet
-L'application a une architecture en client-serveur avec une base de données dans un conteneur Docker et Liquibase pour gérer les montées de versions de la base de données.
-![](https://github.com/x-xira25-x/JhipsterMonoMySql/blob/master/structure.PNG)
+- Developper sur Spring tools suite 4
 
 
 ## Manuel d'utilisation
@@ -68,25 +52,10 @@ La première chose à faire est d'arrêter tous les conteneurs Docker. Puis lanc
 
 Il est important que le conteneur Docker contenant PHPMyAdmin tourne sur le même réseau que le conteneur contenant la base de données.
 
-Le plus simple est d'installer Kitematic pour lancer les conteneurs Docker.
-
 PHPMyAdmin est accessible à l'adresse : http://localhost:9191/
 
 ## Contexte
 Cette application est destinée pour les agences immobilières. Elle leur permet de mettre en avant des biens à vendre et de ce fait, les clients ont la possibilité de visualiser les biens en vente, d'effectuer des recherches et de s'inscrire à des visites que proposent les agents immobiliers.
-
-## User stories
-Ci-dessous se trouve les user stories implémentés dans l'application:
-
-| User stories  | Implémenté    | 
-| ------------- |:-------------:| 
-| En tant qu'agent immobilier, je souhaite promouvoir des biens afin de trouver des acheteurs potentiels.      | X | 
-| En tant qu'agent immobilier, je souhaite trouver des acheteurs potentiels afin d’effectuer des visites.    | X     |   
-| En tant qu'agent immobilier, je souhaite organiser des visites groupées afin de présenter un bien à différents acheteurs. |X      |   
-| En tant que client, je souhaite rechercher un bien afin de pouvoir effectuer une visite.|X      | 
-| En tant que client, je souhaite effectuer une visite afin de voir le bien. |X |
-| En tant que client, je souhaite trouver un bien afin de l’acheter.| X|
-
 
 
 ## Utilisateurs de l'application
