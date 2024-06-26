@@ -1,0 +1,12 @@
+com\mycompany\myapp\domain\TypeBien_.class
+com\mycompany\myapp\domain\Bien_.class
+com\mycompany\myapp\domain\EtatVisite_.class
+com\mycompany\myapp\domain\Authority_.class
+com\mycompany\myapp\domain\TypeClient_.class
+com\mycompany\myapp\domain\Client_.class
+com\mycompany\myapp\domain\EtatBien_.class
+com\mycompany\myapp\domain\PersistentAuditEvent_.class
+com\mycompany\myapp\domain\User_.class
+com\mycompany\myapp\domain\Visite_.class
+com\mycompany\myapp\domain\AgentImmobilier_.class
+com\mycompany\myapp\domain\AbstractAuditingEntity_.class
