@@ -1,4 +1,4 @@
-# Idéal Biens SA
+# Paros
 
 ## Introduction
 Paros est une application de gestion de visites pour une agence immobilière.
